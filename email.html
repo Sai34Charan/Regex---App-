@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="email_styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Email Validator</h1>
+        <form action="/email" method="post">
+            <label for="email">Enter the Email ID to be validate :</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <input type="submit" value="Validate Email">
+        </form>
+        <h2>Email Validation:</h2>
+        <p>The Entered Email is valid</p>
+        <br>
+        <a href="/"><button type="button">Back to Regex Matcher</button></a>
+    </div>
+</body>
+</html>

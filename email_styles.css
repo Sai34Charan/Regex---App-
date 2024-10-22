@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;
+    max-width: 90%; /* To avoid collision with screen edges on smaller screens */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #d81b60; /* Pink color */
+}
+
+label {
+    font-weight: bold;
+    color: #880e4f; /* Darker pink for labels */
+}
+
+input[type="text"] {
+    width: 95%; /* Adjust width to prevent collision */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], button {
+    padding: 10px 20px;
+    background-color: #1976d2; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+h2 {
+    color: #4caf50; /* Green color for validation results */
+}
+
+p {
+    font-size: 18px;
+}
